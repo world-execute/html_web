@@ -1,0 +1,220 @@
+.index02{
+    position: relative;
+}
+.index02>div{
+    /* background-color:aquamarine; */
+    width: 22%;
+    height: 95%;
+    float:left;
+    margin-top: 1%;
+    position: absolute;
+    /* transition: all 2s ; */
+    /* border: 3px solid red; */
+    box-shadow: 0px 0px 20px white;
+    border-radius: 10px;
+    display:none;
+}
+.index02>div:nth-child(2){
+    /* background-color:aqua; */
+    background: url("../img/shop01.png");
+    background-size: cover;
+    left:1%
+}
+.index02>div:nth-child(3){
+    /* background-color:aqua; */
+    background: url("../img/shop02.png");
+    background-size: cover;
+    left:25%
+}
+.index02>div:nth-child(4){
+    /* background-color:aqua; */
+    background: url("../img/shop03.png");
+    background-size: cover;
+    left:50%
+}
+.index02>div:nth-child(5){
+    background: url("../img/shop04.png");
+    background-size: cover;
+    left:75%;
+}
+.index02>div>span{
+    z-index: 2;
+    display: block;
+    width:100%;
+    height:8%;
+    position: absolute;
+    background-color:rgba(82, 82, 82, 0.39);
+    line-height: 50px;
+    font-size:20px;
+    font-weight: bold;
+    color:white;
+    bottom: 20px;
+    text-align: center;
+    transition: 1s;
+}
+.index02>div>span:hover{
+    color: red;
+}
+.index02>div>button{
+    z-index: 2;
+    display: none;
+    width:50px;
+    height:8%;
+    position: absolute;
+    /* background-color:rgb(0, 38, 255); */
+    right:0px;
+}
+.index02>div>div{
+    z-index: 1;
+    width:100%;
+    height:100%;
+    /* background-color:rgb(0, 225, 255); */
+    display:none;
+    padding: 30px 50px auto 50px;
+}
+.index02>div>div>img{
+    width:400px;
+}
+.index02>div>div>div{
+    position: absolute;
+    color:aliceblue;
+    height:90%;
+    width:36%;
+    top:5%;
+    left:500px;
+    /* background-color:red; */
+}
+.index02>div>div>div>h1{
+    margin-bottom:30px;
+    color:antiquewhite;
+}
+.index02>div>div>div>ul>li{
+    margin-top: 10px;
+}
+.index02>div>div>span{
+    position: absolute;
+    width:25%;
+    height: 80%;
+    top:16%;
+    right:4%;
+    border-radius:10px;
+    /* background-color:rgb(0, 0, 0); */
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: none;
+}
+#para01{
+    background-image: url("../img/para01.jpg");
+}
+#para1{
+    display: block;
+    height: 60%;
+    background-image: url("../img/para1.jpg");
+}
+#para02{
+    background-image: url("../img/para02.jpg");
+}
+#para2{
+    display: block;
+    height: 60%;
+    background-image: url("../img/para2.jpg");
+}
+#para03{
+    background-image: url("../img/para03.jpg");
+}
+#para3{
+    display: block;
+    height: 60%;
+    background-image: url("../img/para3.jpg");
+}
+#para04{
+    background-image: url("../img/para04.jpg");
+}
+#para4{
+    display: block;
+    height: 60%;
+    background-image: url("../img/para4.jpg");
+}
+
+.index02>div>div>button{
+    position: absolute;
+    width:25%;
+    height: 10%;
+    top:6%;
+    right:4%;
+    color: white;
+    background-color:rgba(90, 90, 90, 0.4);
+    border-radius: 5px;
+    font-size: 20px;
+    transition:all 1s;
+}
+.index02>div>div>button:hover{
+    color:red;
+    background-color:rgba(153, 153, 153, 0.4);
+}
+.index02>div>div>div>button{
+    position: absolute;
+    width:25%;
+    height: 8%;
+    bottom: 5%;
+    right:4%;
+    color: rgb(255, 42, 42);
+    background-color:rgba(90, 90, 90, 0.4);
+    line-height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    transition:1s;
+}
+.index02>div>div>div>button>svg{
+    position:absolute;
+    top:8px;
+    left:8px;
+    
+}
+.index02>div>div>div>span{
+    position:absolute;
+    display: block;
+    width:25%;
+    height: 8%;
+    bottom: 5%;
+    right:30%;
+    /* background-color: red; */
+    color:rgb(255, 81, 0);
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+}
+#state{
+    z-index: 2;
+    position: absolute;
+    width: 30%;
+    height: 130px;
+    top: 200px;
+    left: 35%;
+    background-color: rgba(0, 0, 0, 0.555);
+    backdrop-filter: blur(5px);
+    text-align: center;
+    display:none;
+}
+#state>h1{
+    margin-top: 30px;
+    color:rgb(216, 0, 0);
+}
+#state>p{
+    margin-top: 10px;
+    color:white;
+    font-weight: bold;
+}
+.index02>div>div>div>h2{
+    position: absolute;
+    width: 100px;
+    padding-top:20px;
+    height:80px;
+    border: 1px solid red;
+    border-radius: 10px;
+    bottom:3%;
+}
+.index02>div>div>div>h2>p{
+    color:wheat;
+}

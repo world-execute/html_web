@@ -1,0 +1,240 @@
+:root{
+    --input-border-color:rgba(58, 58, 58, 0.7);
+}
+.index03>div{
+    z-index: 2;
+    position: fixed;
+    top:30%;
+    left:35%;
+    width:30%;
+    height:150px;
+    background-color:rgba(173, 160, 136, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius:10px;
+    box-shadow: 0px 0px 50px black,0px 0px 20px black;
+    padding-top: 50px;
+    text-align: center;
+    display: none;
+}
+.index03>div>h2{
+    margin-top: 20px;
+    border-top: 2px solid red;
+    padding-top:10px;
+}
+.index03>form{
+    z-index: 1;
+    width:80%;
+    height:80%;
+    margin-left:10%;
+    margin-top: 2%;
+    background-color:rgba(58, 58, 58, 0.5);
+    border-radius:10px;
+    padding-top: 4%;
+    position: relative;
+}
+.index03>form>div{
+    width:80%;
+    margin-left: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height:16%;
+    display:none;
+    background-color: rgba(240, 248, 255, 0.5);
+    border-radius: 5px;
+    position: relative;
+}
+.index03>form>span{
+    width:150px;
+    height:50px;
+    position:absolute;
+    left:10%;
+    top:15px;
+    /* background-color:white; */
+    display:block;
+    font-size:20px;
+    text-align: center;
+    line-height:50px;
+    color: white;
+}
+.index03>form>svg{
+    position:absolute;
+    left:10%;
+    top:25px;
+}
+.index03>form>button{
+    width:150px;
+    height:50px;
+    position:absolute;
+    right:20%;
+    top:15px;
+    background-color: rgba(201, 0, 0, 0.5);
+    border-radius:10px;
+    color: white;
+    font-weight: bolder;
+    display: none;
+}
+
+.index03>form>button[type="submit"]{
+    width:100px;
+    right:10%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.index03>form>div>span{
+    display: block;
+    width: 80px;
+    height:80px;
+    /* background-color: red; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position:absolute;
+    border-radius: 5px;
+    left:2%;
+    top:5px;
+}
+.index03>form>div>button{
+    width: 50px;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position:absolute;
+    border-radius: 5px;
+    right:0px;
+    font-size: 20px;
+    color: white;
+}
+.index03>form>div>button[class="plus"]{
+    top:25%;
+    font-size: 15px;
+    height:50%;
+    right:21%;
+    /* border-bottom: 3px solid black; */
+    box-shadow: 0px 5px 10px black;
+}
+.index03>form>div>button[class="plus"]:hover{
+    top:27%;
+    /* border-bottom: 0px solid black; */
+    box-shadow: 0px 0px 0px black;
+}
+.index03>form>div>button[class="reduce"]{
+    top:25%;
+    font-size: 15px;
+    height:50%;
+    right:10%;
+    box-shadow: 0px 5px 10px black;
+}
+.index03>form>div>button[class="reduce"]:hover{
+    top:27%;
+    /* border-bottom: 0px solid black; */
+    box-shadow: 0px 0px 0px black;
+}
+#shoppingCart01>span{
+    background-image: url("../img/car01.jpg")
+}
+#shoppingCart02>span{
+    background-image: url("../img/car02.jpg")
+}
+#shoppingCart03>span{
+    background-image: url("../img/car03.jpg")
+}
+#shoppingCart04>span{
+    background-image: url("../img/car04.jpg")
+}
+
+#carnav{
+    height:50px;
+    background-color: rgba(12, 12, 12, 0.5);
+}
+#carnav>ul{
+    list-style: none;
+}
+#carnav>ul>li{
+    float: left;
+    height: 40px;
+    line-height: 50px;
+    color:white;
+    position: absolute;
+}
+ul>li:nth-child(1){
+    left:4%;
+}
+ul>li:nth-child(2){
+    left:30%;
+}
+ul>li:nth-child(3){
+    left:56%;
+}
+ul>li:nth-child(4){
+    left:80%;
+}
+.index03>form>div>input{
+    /* background-color:red; */
+    /* position:absolute; */
+    height:100%;
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+.index03>form>div>input[css="s"]{
+    margin-left: 14%;
+    width: 350px;
+    border-right: 5px solid var(--input-border-color);
+    border-left: 5px solid var(--input-border-color);
+    position: relative;
+    top:-3.5%;
+}
+.index03>form>div>input[css="p"]{
+    left: 54%;
+    width: 140px;
+    font-size: 25px;
+    border-right: 5px solid var(--input-border-color);
+}
+.index03>form>div>input[css="n"]{
+    position: absolute;
+    right:15%;
+    width: 60px;
+    font-size: 25px;
+    margin-left: 13%;
+    background-color: #cacaca;
+    border-radius: 5px;
+    height:50%;
+    top:25%;
+}
+
+#carnav>label{
+    color:rgb(255, 255, 255);
+}
+#carnav>label:nth-child(1){
+    margin-left:4%;
+}
+#carnav>input{
+    /* background-color:rgb(255, 255, 255); */
+    border: 2px solid white;
+    color:antiquewhite;
+    height:30px;
+    font-size: 15px;
+    line-height:18px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition:0.5s;
+    padding-left: 5px;
+    text-align: left;
+    letter-spacing:2px;
+}
+#carnav>input:hover{
+    border: 2px solid rgb(255, 0, 0);
+    box-shadow: 0px 0px 5px rgb(255, 0, 0);
+}
+
+input[name="Cname"]{
+    width:9%;
+    margin-left: 1%;
+    margin-right:2%;
+}
+input[name="Cphone"]{
+    width:15%;
+    margin-left: 1%;
+    margin-right:2%;
+}
+input[name="Caddress"]{
+    width:30%;
+    margin-left: 1%;
+}

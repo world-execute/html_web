@@ -1,0 +1,116 @@
+:root{
+    --span-color:#a600ff,rgb(0, 195, 255);
+}
+*{
+    padding:0;
+    margin:0;
+}
+html{
+    height:100%;
+}
+body{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+h1{
+    font-size: 40px;
+    text-shadow: 0px 0px 10px #4187ff;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ffffff;
+}
+
+div{
+    width: 400px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30vh;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgba(255,255,255,0.5);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px black;
+}
+p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+div>san{
+    font-size: 25px;
+    color: brown;
+}
+div>span{
+    position: absolute;
+
+
+}
+.s1{
+    width:100%;
+    height:5px;
+    /* background-color: aqua; */
+    /* background-color: linear-gradient(to left, transparent,rgb(0, 195, 255)); */
+    /* background:linear-gradient(to left, transparent,rgb(0, 195, 255)); */
+    background-image: linear-gradient(to right,var(--span-color));
+    position: absolute;
+    left:-100%;
+    top:0px;
+    animation:line1 2s linear infinite;
+}
+@keyframes line1{
+    50%,100%{
+        left: 100%;
+    }
+}
+.s2{
+    width:5px;
+    height:100%;
+    /* background-color: aqua; */
+    /* background-color: linear-gradient(to left, transparent,rgb(0, 195, 255)); */
+    /* background:linear-gradient(to left, transparent,rgb(0, 195, 255)); */
+    background-image: linear-gradient(to bottom,var(--span-color));
+    position: absolute;
+    right: 0px;
+    top:-100%;
+    animation:line2 2s 0.5s linear infinite;
+}
+@keyframes line2{
+    50%,100%{
+        top:100%;
+    }
+}
+.s3{
+    width:100%;
+    height:5px;
+    /* background-color: aqua; */
+    /* background-color: linear-gradient(to left, transparent,rgb(0, 195, 255)); */
+    /* background:linear-gradient(to left, transparent,rgb(0, 195, 255)); */
+    background-image: linear-gradient(to left,var(--span-color));
+    position: absolute;
+    left:100%;
+    top:98%;
+    animation:line3 2s 1s linear infinite;
+}
+@keyframes line3{
+    50%,100%{
+        left:-100%;
+    }
+}
+.s4{
+    width:5px;
+    height:100%;
+    /* background-color: aqua; */
+    /* background-color: linear-gradient(to left, transparent,rgb(0, 195, 255)); */
+    /* background:linear-gradient(to left, transparent,rgb(0, 195, 255)); */
+    background-image: linear-gradient(to top,var(--span-color));
+    position: absolute;
+    left:0%;
+    top:100%;
+    animation:line4 2s 1.5s linear infinite;
+}
+@keyframes line4{
+    50%,100%{
+        top:-100%;
+    }
+}
