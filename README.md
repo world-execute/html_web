@@ -3,6 +3,6 @@
 # 真就随便写了写,求别打我,顺便求不要挂科
 用到了jQuery的库,创建了简单的动效
 # 简单预览
-![xcYnud.md.png](https://s1.ax1x.com/2022/10/21/xcYnud.md.png)](https://imgse.com/i/xcYnud)
+![xcYnud.md.png](https://s1.ax1x.com/2022/10/21/xcYnud.md.png)
 ---
-![xcYejH.md.png](https://s1.ax1x.com/2022/10/21/xcYejH.md.png)](https://imgse.com/i/xcYejH)
+![xcYejH.md.png](https://s1.ax1x.com/2022/10/21/xcYejH.md.png)
